@@ -1,5 +1,5 @@
 _repo: Ballades-in-Blue-China-and-Verses-and-Translations_3138
-_version: 0.2.0
+_version: 0.2.1
 covers:
 - cover_type: generated
   image_path: cover.png
@@ -27,6 +27,7 @@ subjects:
 - !lcsh 'Poetry'
 - !lcc 'PR'
 - !lcsh 'Ballades'
+- GITenberg
 tableOfContents: Ballade of Theocritus -- Ballade of Cleopatra's needle -- Ballade
   of roulette -- Ballade of sleep -- Ballade of the midnight forest -- Ballade of
   the Tweed -- Ballade of the book-hunter -- Ballade of the voyage to Cythera -- Ballade

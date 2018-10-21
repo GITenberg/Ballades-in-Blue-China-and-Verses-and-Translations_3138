@@ -1,199 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/3138">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.html.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103426</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:12.708615</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na3f8535a65f244b6a887ad3a2ef5a826">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79948</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:12.219623</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N26ded1f70723412692f5b60ffabf36c5">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41428</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8612de7750d646359e929da43559d7aa">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:12.889605</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5f4415f2f01345b38bae5d6e13939cc0">
-        <rdf:value>Ballades</rdf:value>
+      <rdf:Description rdf:nodeID="N0254edd682cd4ad785426d098dfd9b22">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Poetry</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177764</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:14.327534</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/3138/pg3138.cover.small.jpg">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:32.209053</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nee0ffdd8ff22432c843d298fdeb90c0c">
+          <rdf:Description rdf:nodeID="Ndb1b1c5346024fa090ac3b45acebbffc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1735</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/79">
+        <pgterms:alias>Lang, Walter Andrew</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Andrew_Lang"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1912</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1844</pgterms:birthdate>
+        <pgterms:name>Lang, Andrew</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf7a79a99ca9542048a0325ad84deb209">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N740fbbed4d3d4cc8939fb27952bde5ec">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/3138/pg3138.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:32.252053</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N23487dfd94b745dabd0374eb1ae9b301">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9931</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138-h/3138-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227006</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-09T16:56:58</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N85c54a1820e842f2b83dd1fdd0c48c9f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.rdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12369</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N832d363972414e89ac3571cd0f5ff799">
+          <rdf:Description rdf:nodeID="N7e698f7836e041c6a94feba3a5e86639">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:15.158488</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N3a279f7bd39b4929808c6198db7d184e">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Poetry</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N90a9d8c7e9574ffcbb74f0b16d7b7c1b">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:license rdf:resource="license"/>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</pgterms:downloads>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/79">
-        <pgterms:alias>Lang, Walter Andrew</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Andrew_Lang"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1844</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1912</pgterms:deathdate>
-        <pgterms:name>Lang, Andrew</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:14.967493</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177759</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc6cc96d6ea1e4eef9a8d9e6069d8dcfa">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N1a333b890f3548a682d5da6ba4a3cdcf">
-        <rdf:value>PR</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8dfff9228eb049c5b5ee7c9970e9721d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79947</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-04T15:58:46</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41427</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N80ffe721c67342969de85c98669adc0a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:13.549571</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:02:19.758898</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13504</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-04T15:59:04</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138-0.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-09T17:00:39</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N88f032eeeaa54eb0a10745e8a879bf52">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf5364a987e944f668420f3ec9c8252f4">
+          <rdf:Description rdf:nodeID="Nfe35356022824cfebf06858af9364250">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33532</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd2bad380d3f043989f767cf31a8bb992">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64681</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nca549f832f494235a61f16ad3932dc93">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8dc8887d6f324dd0bfa16171483a19fd">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Ballades</rdf:value>
       </rdf:Description>
-    </dcterms:type>
-    <dcterms:title>Ballades in Blue China, and Verses and Translations</dcterms:title>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-03-01</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.html.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103426</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-02T03:34:12.615606</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:31.717060</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0c7f919ae7504749b5c842eeeaab6b2b">
+          <rdf:Description rdf:nodeID="Nd21ae6b24a48473aa31ced8bad7bfe6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">436151</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:28.413114</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181451</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N61d8d9d0303a44e88ffa4014ca4609c1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:tableOfContents>Ballade of Theocritus -- Ballade of Cleopatra's needle -- Ballade of roulette -- Ballade of sleep -- Ballade of the midnight forest -- Ballade of the Tweed -- Ballade of the book-hunter -- Ballade of the voyage to Cythera -- Ballade of the summer term -- Ballade of the muse -- Ballade against the Jesuits -- Ballade of dead cities -- Ballade of the royal game of golf -- Double ballade of primitive man -- Ballade of autumn -- Ballade of true wisdom -- Ballade of worldly wealth -- Ballade of life -- Ballade of blue china -- Ballade of dead ladies -- Villon's ballade of good counsel -- Ballade of the bookworm -- Valentine in form of ballade -- Ballade of old plays -- Ballade of his books -- Ballade of the dream -- Ballade of the Southern Cross -- Ballade of Aucassin -- Ballade amoureuse -- Ballade of Queen Anne -- Ballade of blind love -- Ballade of his choice of a sepulchre -- Dizain -- A portrait of 1783 -- The moon's minion -- In Ithaca -- Homer -- The burial of Moliere -- Bion -- Spring -- Before the snow -- Villanelle -- Natural theology -- The Odyssey -- Ideal -- The fairy's gift -- Benedetta Ramus -- Partant pour la Scribie -- St. Andrew's Bay -- Woman and the weed.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N457f2761fbf549b5988849835b7de775">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:30.243083</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548541</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:title>Ballades &amp; Rhymes from Ballades in Blue China and Rhymes a la Mode</dcterms:title>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3138.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120677</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5d57faa58bf74daea324b54e74f49822">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-02T02:32:28.739106</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138-0.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168508</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-09T16:55:19</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N884a76fb90bf42569c96698fab615382">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0c744b82cf9e40aba483dc91d4a57771">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3138/3138-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-09T17:00:40</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/3138"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">692152</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfcde3b7dbadb492386ec4cae7e2ca9d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N14315d65c9e840169a7760850fe66b34">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:tableOfContents>Ballade of Theocritus -- Ballade of Cleopatra's needle -- Ballade of roulette -- Ballade of sleep -- Ballade of the midnight forest -- Ballade of the Tweed -- Ballade of the book-hunter -- Ballade of the voyage to Cythera -- Ballade of the summer term -- Ballade of the muse -- Ballade against the Jesuits -- Ballade of dead cities -- Ballade of the royal game of golf -- Double ballade of primitive man -- Ballade of autumn -- Ballade of true wisdom -- Ballade of worldly wealth -- Ballade of life -- Ballade of blue china -- Ballade of dead ladies -- Villon's ballade of good counsel -- Ballade of the bookworm -- Valentine in form of ballade -- Ballade of old plays -- Ballade of his books -- Ballade of the dream -- Ballade of the Southern Cross -- Ballade of Aucassin -- Ballade amoureuse -- Ballade of Queen Anne -- Ballade of blind love -- Ballade of his choice of a sepulchre -- Dizain -- A portrait of 1783 -- The moon's minion -- In Ithaca -- Homer -- The burial of Moliere -- Bion -- Spring -- Before the snow -- Villanelle -- Natural theology -- The Odyssey -- Ideal -- The fairy's gift -- Benedetta Ramus -- Partant pour la Scribie -- St. Andrew's Bay -- Woman and the weed.</dcterms:tableOfContents>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-03-01</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andrew_Lang">
     <dcterms:description>en.wikipedia</dcterms:description>
